@@ -258,6 +258,7 @@ main {
 @media (max-width: 468px) {
   .hero__title__container h1 {
     font-size: 80px;
+    line-height: 40px;
   }
 }
 @media (max-width: 340px) {
@@ -277,6 +278,7 @@ main {
 @media (max-width: 468px) {
   .hero__title__container h3 {
     font-size: 32px;
+    line-height: 40px;
   }
 }
 .hero p {
