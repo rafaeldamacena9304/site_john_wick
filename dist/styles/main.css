@@ -338,20 +338,23 @@ main {
     background-position-x: -40vh;
   }
 }
-@media (max-width: 414px) {
+@media (max-width: 480px) {
   .sobre {
-    margin-top: 55%;
+    margin-top: 100%;
+  }
+}
+@media (max-width: 420px) {
+  .sobre {
+    background-position-x: -65vh;
   }
 }
 @media (max-width: 380px) {
   .sobre {
-    margin-top: 75%;
     background-position-x: -80vh;
   }
 }
 @media (max-width: 340px) {
   .sobre {
-    margin-top: 100%;
     background-position-x: -98vh;
     background-size: cover;
   }
@@ -382,7 +385,7 @@ main {
 .sobre__container {
   width: 50%;
 }
-@media (max-width: 414px) {
+@media (max-width: 435px) {
   .sobre__container {
     width: 65%;
   }
@@ -418,7 +421,7 @@ main {
     height: 50dvh;
   }
 }
-@media (max-width: 414px) {
+@media (max-width: 435px) {
   .trailer__img__div video {
     height: 30dvh;
   }
