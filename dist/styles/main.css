@@ -406,12 +406,12 @@ main {
 }
 @media (max-width: 560px) {
   .trailer__img__div video {
-    height: 50dvh;
+    height: 80dvh;
   }
 }
 @media (max-width: 435px) {
   .trailer__img__div video {
-    height: 30dvh;
+    height: 55dvh;
   }
 }
 .trailer__img__div .playButton {
