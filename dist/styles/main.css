@@ -338,7 +338,7 @@ main {
     background-position-x: -40vh;
   }
 }
-@media (max-width: 435px) {
+@media (max-width: 414px) {
   .sobre {
     margin-top: 55%;
   }
@@ -382,7 +382,7 @@ main {
 .sobre__container {
   width: 50%;
 }
-@media (max-width: 435px) {
+@media (max-width: 414px) {
   .sobre__container {
     width: 65%;
   }
@@ -418,7 +418,7 @@ main {
     height: 50dvh;
   }
 }
-@media (max-width: 435px) {
+@media (max-width: 414px) {
   .trailer__img__div video {
     height: 30dvh;
   }
