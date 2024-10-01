@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Wick - Baba Yaga</title>
+    <link rel="stylesheet" href="dist/styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="dist/images/favicon.png">
+
+</head>
+<body>
+    <audio id="audioFundo" src="/dist/audio/audiofundo.mp3"></audio>
+    <div id="audioModal" display="none">
+        <div class="modal__content">
+            <p>Para uma melhor experiência durante o uso do site,
+                gostaríamos da sua permissão para reproduzir áudio em seu dispositivo,
+                você concorda com isso?
+            </p>
+            <div class="modal__content__buttons">
+                <button id="yesButton">Sim, por favor</button>
+                <button id="noButton">Não, fechar aviso</button>
+            </div>
+        </div>
+    </div>
+    <div class="noise-overlay"></div>
+    <main>
+        <header class="header">
+            <nav class="header__nav">
+                <ul class="header__nav__list">
+                    <li class="header__nav__list__item">
+                        <a class="header__nav__list__item__link" href="#trailerSection">Trailer</a>
+                    </li>
+                    <li>
+                        <a class="header__nav__list__item__link" href="#sobreSection">Sobre John Wick</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="header__button">Assistir</button>
+        </header>
+        <section class="hero">
+            <img class="hero__img" src="/dist/images/hero-title.png" alt="Um pincel branco risco">
+            <div class="hero__title__container">
+                <h1>
+                    John Wick
+                </h1>
+                <h3>
+                    Parte 4: Baba Yaga
+                </h3>
+            </div>
+            <p>Assista agora</p>
+            <ul class="hero__list">
+                <li class="hero__list__item">
+                    <img src="/dist/images/appletv.png" alt="Logo AppleTV+">
+                </li>
+                <li class="hero__list__item">
+                    <img src="/dist/images/primevideo.png" alt="Logo Amazon Prime">
+                </li>
+                <li class="hero__list__item">
+                    <img src="/dist/images/googleplay.png" alt="Logo Google Play Filmes">
+                </li>
+            </ul>
+            <img src="/dist/images/imdb.png" alt="">
+        </section>
+    </main>
+    <section class="sobre" id="sobreSection">
+        <div id="sobreContainer" class="sobre__container">
+            <h2>John Wick</h2>
+            <p id="textoContainer"></p>
+        </div>
+    </section>
+    <section class="img__section">
+    </section>
+    <section id="trailerSection" class="trailer">
+        <h2>Assista ao trailer</h2>
+        <p>Aviso: conteúdo pode ser sensível para alguns usuários (violência)</p>
+        <div class="trailer__img__div">
+            <video id="trailer" poster="/dist/images/thumbnail.jpg" src="/dist/videos/trailer.mp4"></video>
+            <img id="playButton" class="playButton" src="/dist/images/play.png" alt="Botão de play">
+        </div>
+    </section>
+    <section class="planos">
+        <h2>Assista agora</h2>
+    <div class="planos__items">
+        <div class="planos__items__item">
+            <h3>Alugue</h3>
+            <p>R$18,90 (3 dias)</p>
+            <button>Adquirir agora</button>
+        </div>
+        <div class="planos__items__item popular">
+            <h3>Compre</h3>
+            <p>R$29,90 (Vitalício)</p>
+            <button>Adquirir agora</button>
+        </div>
+        <div class="planos__items__item">
+            <h3>Alugue</h3>
+            <p>R$54,90 (30 dias)</p>
+            <button>Adquirir agora</button>
+        </div>
+    </div>
+    <hr>
+    <div class="planos__extras">
+        <h3>Assista tambem por:</h3>
+        <div class="planos__extras__container">
+            <div class="planos__extras__container__item">
+                <img src="/dist/images/appletv.png" alt="">
+                <p>Clique aqui <a href="#">Clique aqui</a></p>
+            </div>
+            <div class="planos__extras__container__item">
+                <img src="/dist/images/primevideo.png" alt="">
+                <p>Amazon Prime:<a href="#">Clique aqui</a></p>
+            </div>
+            <div class="planos__extras__container__item">
+                <img src="/dist/images/googleplay.png" alt="">
+                <p>Google Play Filmes:<a href="#">Clique aqui</a></p>
+            </div>
+        </div>
+
+    </div>
+</section>
+<script src="main.js"></script>
+</body>
+</html>
