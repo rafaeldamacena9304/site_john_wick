@@ -328,7 +328,7 @@ main {
 }
 @media (max-width: 480px) {
   .sobre {
-    margin-top: 100%;
+    margin-top: 95%;
   }
 }
 @media (max-width: 420px) {
