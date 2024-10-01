@@ -257,11 +257,6 @@ main {
 }
 @media (max-width: 468px) {
   .hero__title__container h1 {
-    font-size: 96px;
-  }
-}
-@media (max-width: 380px) {
-  .hero__title__container h1 {
     font-size: 80px;
   }
 }
@@ -281,17 +276,7 @@ main {
 }
 @media (max-width: 468px) {
   .hero__title__container h3 {
-    font-size: 48px;
-  }
-}
-@media (max-width: 380px) {
-  .hero__title__container h3 {
     font-size: 32px;
-  }
-}
-@media (max-width: 340px) {
-  .hero__title__container h3 {
-    line-height: 30px;
   }
 }
 .hero p {
