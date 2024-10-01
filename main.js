@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (index < textoSobre.length) {
             document.getElementById('textoContainer').innerHTML += textoSobre.charAt(index);
             index++;
-            setTimeout(efeitoDigitando, 45);
+            setTimeout(efeitoDigitando, 35);
         }
     }
 
