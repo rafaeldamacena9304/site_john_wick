@@ -3,11 +3,11 @@ document.addEventListener('DOMContentLoaded', function() {
     const playButton = document.getElementById('playButton');
     const textoSobre = '"Chamam ele de Baba Yaga (que significa Bicho-papão). Bom, mas ele não é exatamente o bicho-papão, ele era o homem que nós mandávamos para matar o bicho-papão. Ele é um homem concentrado, dedicado, e com uma maldita força de vontade. Uma vez eu já o vi matar três homens usando apenas um lápis, a porcaria de um lápis! Quem faz isso ?!"';
     const sobreContainer = document.getElementById('sobreContainer');
-    let index = 0;
     const audioFundo = document.getElementById('audioFundo');
     const yesButton = document.getElementById('yesButton');
     const noButton = document.getElementById('noButton');
     const audioModal = document.getElementById('audioModal');
+    let index = 0;
     audioFundo.volume = 0.5;
 
     audioModal.style.display = 'block';
